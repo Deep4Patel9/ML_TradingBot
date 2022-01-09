@@ -36,7 +36,7 @@ Original Baseline Model was created using a SVC ML model with a 4- and 100-day S
 ![Original Baseline SVC Model with a 4- and 100-day SMA and 3 Months of Training Data](Resources/Baseline_Return_SVM.png)
 Alternative Model using a Logistic Regression and Baseline Inputs
 ![Original Baseline Logistic Regression Model with a 4- and 100-day SMA and 3 Months of Training Data](Resources/LR_Model_Baseline.png)
-It can be seen that the Logistic Regression Model ended up performing poorly at the end when compared to the SVC model. After going through a series of tuning with the original SVC model it seems that the performance at 9-Months of training data with 20- and 120-day SMAs performed the best. Surprising both of the ML models performed similarly with these tuned inputs. As can be seen in the following images of the two ML models performance.
+It can be seen that the Logistic Regression Model ended up performing poorly at the end when compared to the SVC model. After going through a series of tuning with the original SVC model it seems that the performance at 9-Months of training data with 20- and 120-day SMAs performed the best. Surprising both of the ML models performed similarly with these tuned inputs. Although overall the SVC model still seems to be performing better than the Logestic Regression model. As can be seen in the following images of the two ML models performance.
 ![SVC Model with a 20- and 120-day SMA and 9 Months of Training Data](Resources/SVC_Tuned.png)
 ![Logistic Regression Model with a 20- and 120-day SMA and 9 Months of Training Data](Resources/LR_Tuned.png)
 
